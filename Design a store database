@@ -1,0 +1,21 @@
+CREATE TABLE clothing (id INTEGER PRIMARY KEY, item_type TEXT, quantity INTEGER, price INTEGER, size TEXT);
+
+INSERT INTO clothing VALUES (1, "jeans", 30, 86.00, "M");
+INSERT INTO clothing VALUES (2, "jumpsuits", 15, 94.00, "XL");
+INSERT INTO clothing VALUES (3, "V-neck, T-shirt", 24, 34.00, "XS");
+INSERT INTO clothing VALUES (4, "High waist jeans", 10, 804.00, "S");
+INSERT INTO clothing VALUES (5, "Short dreass", 90, 898.00, "M");
+INSERT INTO clothing VALUES (6, "Leggings", 12, 44.00, "L");
+INSERT INTO clothing VALUES (7, "Summer shoert", 100, 30.00, "M");
+INSERT INTO clothing VALUES (8, "Underware", 19, 5.99, "M");
+INSERT INTO clothing VALUES (9, "Sweatpants", 90, 67.00, "XXL");
+INSERT INTO clothing VALUES (10, "Pijamas", 54, 76.00, "M");
+INSERT INTO clothing VALUES (11, "Bikini", 200, 20.00, "S");
+INSERT INTO clothing VALUES (12, "Men's Suits", 10, 1000.00, "XL");
+INSERT INTO clothing VALUES (13, "Tuxedo", 88, 222.00, "L");
+INSERT INTO clothing VALUES (14, "hoodies", 77, 60.00, "L");
+INSERT INTO clothing VALUES (15, "Jacket", 39, 200.00, "XL");
+
+SELECT * FROM clothing 
+ORDER BY price;
+
